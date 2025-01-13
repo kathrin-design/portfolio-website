@@ -8,7 +8,10 @@ import projectCard6 from "../../../assets/project-card6.png";
 
 function Projects() {
   return (
-    <div className="projects-page border border-dark d-flex flex-column justify-content-center align-items-center gap-5">
+    <div
+      id="projects"
+      className="projects-page border border-dark d-flex flex-column justify-content-center align-items-center gap-5"
+    >
       <div className="d-flex flex-column">
         <p className="text-center fw-medium mb-2">Take a look</p>
         <p className="text-center fs-1 text-dark fw-semibold">Projects</p>
