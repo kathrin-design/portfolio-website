@@ -66,13 +66,13 @@ function Navbar() {
           <div className="hamburger-icon d-flex flex-column align-items-center justify-content-center">
             {isMenuOpen ? (
               <i
-                class="fa-solid fa-xmark fa-3x p-4 position-fixed z-1"
+                className="fa-solid fa-xmark fa-3x p-4 position-fixed z-1"
                 onClick={toggleMenu}
                 ref={menuDropdownRef}
               ></i>
             ) : (
               <i
-                class="fa-solid fa-bars fa-3x p-4 position-fixed z-1"
+                className="fa-solid fa-bars fa-3x p-4 position-fixed z-1"
                 onClick={toggleMenu}
                 ref={menuDropdownRef}
               ></i>
@@ -88,38 +88,38 @@ function Navbar() {
               </div>
               <li className="me-4">
                 <a href="#home" className="text-start text-white fs-4">
-                  <i class="fa-solid fa-house pe-sm-4"></i>
+                  <i className="fa-solid fa-house pe-sm-4"></i>
                   Home
                 </a>
               </li>
               <li className="me-4">
                 <a href="#about" className="text-start text-white fs-4">
-                  <i class="fa-solid fa-user pe-sm-4"></i>
+                  <i className="fa-solid fa-user pe-sm-4"></i>
                   About
                 </a>
               </li>
               <li className="me-4">
                 <a href="#experience" className="text-start text-white fs-4">
-                  <i class="fa-solid fa-list-check pe-sm-4"></i>
+                  <i className="fa-solid fa-list-check pe-sm-4"></i>
                   Experience
                 </a>
               </li>
               <li className="me-4">
                 <a href="#projects" className="text-start text-white fs-4">
-                  <i class="fa-solid fa-file pe-sm-4"></i>
+                  <i className="fa-solid fa-file pe-sm-4"></i>
                   Projects
                 </a>
               </li>
               <li>
                 <a href="#contact" className="text-start text-white fs-4">
-                  <i class="fa-solid fa-envelope pe-sm-4"></i>
+                  <i className="fa-solid fa-envelope pe-sm-4"></i>
                   Contact
                 </a>
               </li>
               <li className="mode text-start text-white fs-4 d-flex flex-row">
                 <div className="moon-sun bottom-0 start-0 border border-white">
-                  <i class="fa-solid fa-moon"></i>
-                  <i class="fa-solid fa-sun"></i>
+                  <i className="fa-solid fa-moon"></i>
+                  <i className="fa-solid fa-sun"></i>
                 </div>
                 <span className="mode-text text">Dark Mode</span>
 

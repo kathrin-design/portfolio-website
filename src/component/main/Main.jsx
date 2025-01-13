@@ -1,9 +1,9 @@
 import React from "react";
-import Hero from "./Hero";
-import About from "./About";
-import Experience from "./Experience";
-import Projects from "./Projects";
-import Contact from "./Contact";
+import Hero from "./component/About";
+import About from "./component/About";
+import Experience from "./component/Experience";
+import Projects from "./component/Projects";
+import Contact from "./component/Contact";
 
 function Main() {
   return (
