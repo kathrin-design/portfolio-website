@@ -6,8 +6,8 @@ import githubLogo from "../../../assets/github.png";
 function Hero() {
   return (
     <div
-      id="hero"
-      className="hero-page border border-dark d-flex flex-lg-row justify-content-center align-items-center gap-5"
+      id="home"
+      className="home-page border border-dark d-flex flex-lg-row justify-content-center align-items-center gap-5"
     >
       <img
         src={profilePic}

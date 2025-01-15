@@ -35,9 +35,13 @@ a,
   transition: all 300ms ease;
 }
 
-.hero-page {
+.home-page {
   min-height: 80vh;
   padding: 5rem;
+}
+
+.nav-list:hover {
+  background-color: #363636;
 }
 
 .link {

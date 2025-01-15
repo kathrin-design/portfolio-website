@@ -86,31 +86,31 @@ function Navbar() {
                   Kathrin Rut Agustina Panjaitan
                 </p>
               </div>
-              <li className="me-4">
-                <a href="#hero" className="text-start text-white fs-5">
+              <li className="nav-list">
+                <a href="#home" className="text-start text-white fs-5">
                   <i className="fa-solid fa-house pe-sm-2"></i>
                   Home
                 </a>
               </li>
-              <li className="me-4">
+              <li className="nav-list">
                 <a href="#about" className="text-start text-white fs-5">
                   <i className="fa-solid fa-user pe-sm-2"></i>
                   About
                 </a>
               </li>
-              <li className="me-4">
+              <li className="nav-list">
                 <a href="#experience" className="text-start text-white fs-5">
                   <i className="fa-solid fa-list-check pe-sm-2"></i>
                   Experience
                 </a>
               </li>
-              <li className="me-4">
+              <li className="nav-list">
                 <a href="#projects" className="text-start text-white fs-5">
                   <i className="fa-solid fa-file pe-sm-2"></i>
                   Projects
                 </a>
               </li>
-              <li>
+              <li className="nav-list">
                 <a href="#contact" className="text-start text-white fs-5">
                   <i className="fa-solid fa-envelope pe-sm-2"></i>
                   Contact
