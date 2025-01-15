@@ -37,13 +37,7 @@ function About() {
           </div>
           <div>
             <p>
-              Hello, I am a frontend developer and IT enthusiast. Graduate from
-              Institut Teknologi Del who want to switching careers to IT field
-              to pursue a passion for creating user-friendly and visually
-              engaging interfaces. Engaged in Frontend Development projects and
-              bootcamps. Passionate about Frontend Development, focusing on
-              crafting intuitive and visually appealing web interfaces.
-              Currently developing skills in Frontend Development.
+              Hello, I am a frontend developer and IT enthusiast. Graduate fromInstitut Teknologi Del who want to switching careers to IT field to pursue a passion for creating user-friendly and visually engaging interfaces. Engaged in Frontend Development projects and bootcamps. Passionate about Frontend Development, focusing on crafting intuitive and visually appealing web interfaces. Currently developing skills in Frontend Development.
             </p>
           </div>
         </div>
