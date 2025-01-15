@@ -40,8 +40,12 @@ a,
   padding: 5rem;
 }
 
+.link {
+  width: 10%;
+}
+
 .link-logo {
-  width: 5%;
+  width: 100%;
 }
 
 .logo {

@@ -9,7 +9,11 @@ function Hero() {
       id="hero"
       className="hero-page border border-dark d-flex flex-lg-row justify-content-center align-items-center gap-5"
     >
-      <img src={profilePic} alt="profile picture" className="profile-pic w-50" />
+      <img
+        src={profilePic}
+        alt="profile picture"
+        className="profile-pic w-50"
+      />
       <div className="d-flex flex-column my-auto border">
         <p className="text-center fs-5 fw-semibold">Hello, I'm</p>
         <p className="text-center fs-2 text-dark fw-bold">
@@ -25,12 +29,22 @@ function Hero() {
           </button>
         </div>
         <div className="d-flex flex-row justify-content-center mt-4">
-          <img
-            src={linkedInLogo}
-            alt="linkedIn Logo"
-            className="link-logo me-2"
-          />
-          <img src={githubLogo} alt="github Logo" className="link-logo ms-2" />
+          <a
+            href="https://linkedin.com/kathrinpanjaitan"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="link me-1"
+          >
+            <img src={linkedInLogo} alt="linkedIn Logo" className="link-logo" />
+          </a>
+          <a
+            href="https://github.com/kathrin-design"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="link ms-1"
+          >
+            <img src={githubLogo} alt="github Logo" className="link-logo" />
+          </a>
         </div>
       </div>
     </div>
