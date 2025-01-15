@@ -79,53 +79,42 @@ function Navbar() {
             )}
           </div>
           {isMenuOpen && (
-            <div className="menu-links list-unstyled d-flex flex-column ps-2 h-100 w-25 position-fixed top-0 start-0 overflow-auto bg-black">
+            <div className="menu-links list-unstyled d-flex flex-column h-100 position-fixed top-0 start-0 overflow-auto bg-black">
               <div className="d-flex flex-column justify-content-center align-items-center mb-5">
                 <img src={sideBar} alt="side bar" className="w-50" />
-                <p className="fs-4 text-center text-white fw-semibold px-2">
-                  Kathrin rut agustina panjaitan
+                <p className="fs-5 text-center text-white fw-semibold px-2">
+                  Kathrin Rut Agustina Panjaitan
                 </p>
               </div>
               <li className="me-4">
-                <a href="#home" className="text-start text-white fs-4">
-                  <i className="fa-solid fa-house pe-sm-4"></i>
+                <a href="#hero" className="text-start text-white fs-5">
+                  <i className="fa-solid fa-house pe-sm-2"></i>
                   Home
                 </a>
               </li>
               <li className="me-4">
-                <a href="#about" className="text-start text-white fs-4">
-                  <i className="fa-solid fa-user pe-sm-4"></i>
+                <a href="#about" className="text-start text-white fs-5">
+                  <i className="fa-solid fa-user pe-sm-2"></i>
                   About
                 </a>
               </li>
               <li className="me-4">
-                <a href="#experience" className="text-start text-white fs-4">
-                  <i className="fa-solid fa-list-check pe-sm-4"></i>
+                <a href="#experience" className="text-start text-white fs-5">
+                  <i className="fa-solid fa-list-check pe-sm-2"></i>
                   Experience
                 </a>
               </li>
               <li className="me-4">
-                <a href="#projects" className="text-start text-white fs-4">
-                  <i className="fa-solid fa-file pe-sm-4"></i>
+                <a href="#projects" className="text-start text-white fs-5">
+                  <i className="fa-solid fa-file pe-sm-2"></i>
                   Projects
                 </a>
               </li>
               <li>
-                <a href="#contact" className="text-start text-white fs-4">
-                  <i className="fa-solid fa-envelope pe-sm-4"></i>
+                <a href="#contact" className="text-start text-white fs-5">
+                  <i className="fa-solid fa-envelope pe-sm-2"></i>
                   Contact
                 </a>
-              </li>
-              <li className="mode text-start text-white fs-4 d-flex flex-row">
-                <div className="moon-sun bottom-0 start-0 border border-white">
-                  <i className="fa-solid fa-moon"></i>
-                  <i className="fa-solid fa-sun"></i>
-                </div>
-                <span className="mode-text text">Dark Mode</span>
-
-                <div className="toggle-switch">
-                  <span className="switch"></span>
-                </div>
               </li>
             </div>
           )}
