@@ -98,10 +98,10 @@ function Projects() {
             HTML, CSS, and JavaScript, aimed at providing an interactive and
             engaging learning experience.
           </p>
-          <a href="#">
-            <i className="fa-brands fa-linkedin fa-lg py-3 text-dark"></i>
+          <a href="https://github.com/kathrin-design">
+            <i className="fa-brands fa-github fa-lg py-3 text-dark"></i>
           </a>
-          <a href="#" className="btn btn-primary">
+          <a href="https://github.com/kathrin-design" className="btn btn-primary">
             Take a look
           </a>
         </div>
