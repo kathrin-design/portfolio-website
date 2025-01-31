@@ -57,7 +57,7 @@ function Navbar() {
           </li>
         </ul>
       </nav>
-      <nav id="hamburger-nav" className="hamburger-navbar border-bottom border-dark">
+      <nav id="hamburger-nav" className="hamburger-navbar border-bottom">
         <a href="#home" className="hamburger-navbar fs-3 fw-bold text-black">
           Kathrin Rut Agustina Panjaitan
         </a>
