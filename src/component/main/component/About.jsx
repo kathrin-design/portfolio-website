@@ -7,18 +7,18 @@ function About() {
   return (
     <div
       id="about"
-      className="about-page border border-dark d-flex flex-column justify-content-center align-items-center gap-5"
+      className="about-page d-flex flex-column justify-content-center align-items-center gap-5"
     >
       <div className="d-flex flex-column">
         <p className="text-center fw-medium mb-2">Get To Know More</p>
         <p className="text-center fs-1 text-dark fw-semibold">About Me</p>
       </div>
 
-      <div className="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-5 border border-dark">
+      <div className="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-5">
         <img
           src={aboutPic}
           alt="about me"
-          className="w-25 align-self-center rounded-5"
+          className="w-25 align-self-center rounded-5 border"
         />
         <div className="d-flex flex-column gap-5">
           <div className="d-flex flex-column flex-md-row gap-5">
@@ -37,7 +37,13 @@ function About() {
           </div>
           <div>
             <p>
-              Hello, I am a frontend developer and IT enthusiast. Graduate fromInstitut Teknologi Del who want to switching careers to IT field to pursue a passion for creating user-friendly and visually engaging interfaces. Engaged in Frontend Development projects and bootcamps. Passionate about Frontend Development, focusing on crafting intuitive and visually appealing web interfaces. Currently developing skills in Frontend Development.
+              Hello, I am a frontend developer and IT enthusiast. Graduate
+              fromInstitut Teknologi Del who want to switching careers to IT
+              field to pursue a passion for creating user-friendly and visually
+              engaging interfaces. Engaged in Frontend Development projects and
+              bootcamps. Passionate about Frontend Development, focusing on
+              crafting intuitive and visually appealing web interfaces.
+              Currently developing skills in Frontend Development.
             </p>
           </div>
         </div>

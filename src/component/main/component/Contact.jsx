@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="about-page border border-dark d-flex flex-column justify-content-center align-items-center gap-5"
+      className="about-page d-flex flex-column justify-content-center align-items-center gap-5"
     >
       <div className="d-flex flex-column">
         <p className="text-center fw-medium mb-2">Get To Know More</p>

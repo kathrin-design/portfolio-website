@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="d-flex flex-column my-auto py-5">
+    <div id="home" className="d-flex flex-column my-auto py-5">
       <p className="text-left fs-4 fw-semibold">Hello, I'm</p>
       <p className="text-left fs-1 text-dark fw-bold">
         Kathrin Rut Agustina Panjaitan

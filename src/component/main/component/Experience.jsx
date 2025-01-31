@@ -5,7 +5,7 @@ function Experience() {
   return (
     <div
       id="experience"
-      className="experience-page border border-dark d-flex flex-column justify-content-center align-items-center gap-5 p-3"
+      className="experience-page d-flex flex-column justify-content-center align-items-center gap-5 p-3"
     >
       <div className="d-flex flex-column">
         <p className="text-center fw-medium mb-2">Explore My</p>

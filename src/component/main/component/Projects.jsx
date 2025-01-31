@@ -10,7 +10,7 @@ function Projects() {
   return (
     <div
       id="projects"
-      className="projects-page border border-dark d-flex flex-column justify-content-center align-items-center gap-5"
+      className="projects-page d-flex flex-column justify-content-center align-items-center gap-5"
     >
       <div className="d-flex flex-column">
         <p className="text-center fw-medium mb-2">Take a look</p>
@@ -101,7 +101,10 @@ function Projects() {
           <a href="https://github.com/kathrin-design">
             <i className="fa-brands fa-github fa-lg py-3 text-dark"></i>
           </a>
-          <a href="https://github.com/kathrin-design" className="btn btn-primary">
+          <a
+            href="https://github.com/kathrin-design"
+            className="btn btn-primary"
+          >
             Take a look
           </a>
         </div>
